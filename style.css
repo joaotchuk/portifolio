@@ -1,3 +1,11 @@
+body{
+    
+    background: #22212C;
+}
+
+
+
+
 #bloco1{
     border-radius: 20px;
     border: 1px solid #000;
@@ -8,6 +16,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    margin-right: 70px;
 }
 
 #perfil img{
@@ -39,3 +48,32 @@
     line-height: normal;
 }
 
+#bloco2{
+    width: 952px;
+    height: 86px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    right: 50%;
+    display: inline-flex;
+
+    
+    
+}
+
+#meus-projetos p{
+    width: 121px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #837E9F;
+    font-family: Merriweather Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 20px;
+    
+    
+
+}
