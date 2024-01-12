@@ -12,5 +12,30 @@
 
 #perfil img{
     width: 110px;
-  border-radius:50%;
+    border-radius:50%;
 }
+
+#perfil p{
+    width: 196px;
+    height: 26px;
+    color: #837E9F;
+
+    font-family: Merriweather Sans;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#perfil h1{
+    width: 128px;
+    height: 17px;
+    color: #837E9F;
+
+    font-family: Merriweather Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
