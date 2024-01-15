@@ -55,12 +55,16 @@ body{
     border-radius: 20px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
-    right: 50%;
-    display: inline-flex;
-
+    top: 8%;
+    right: 2%;
+    position: absolute;
+    padding: 32px 76px;
+   
+    
     
     
 }
+
 
 #meus-projetos p{
     width: 121px;
@@ -68,12 +72,24 @@ body{
     flex-shrink: 0;
     color: #837E9F;
     font-family: Merriweather Sans;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     margin-left: 20px;
-    
-    
-
 }
+
+#meus-projetos p1{
+    margin-left: 800px;
+    color: #837E9F;
+    font-family: Merriweather Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 00;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
