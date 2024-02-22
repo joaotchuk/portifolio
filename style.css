@@ -110,11 +110,22 @@ ul li a {
     justify-content:left;
     padding: 30px 284px auto 40px;
     border-radius: 8px;
-    border: red solid 1px;
+    
     color: #837E9F;
     font-family: "Merriweather Sans";
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+ul li a h1 {
+    width:250px;
+    text-align: left;
+}
+
+ul li a img {
+    float:left;
+    padding-right: 20px;
+
 }
