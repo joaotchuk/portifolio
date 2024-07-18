@@ -60,7 +60,7 @@ body{
     top: 8%;
     right: 2%;
     position: absolute;
-    padding: 32px 76px;
+    padding: 10px 76px;
     
 }
 
@@ -83,11 +83,13 @@ body{
 
 #bloco3 {
     width: 348px;
-    height: 348px;
+    height: 250px;
     flex-shrink: 0;
     border-radius: 20px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+     align-items: center;
+    
    
 }
 
@@ -123,6 +125,7 @@ ul li a {
 ul li a h1 {
     width:250px;
     text-align: left;
+    font-size: medium;
 }
 
 ul li a img {
@@ -130,3 +133,183 @@ ul li a img {
     padding-right: 20px;
 
 }
+
+#tecno{
+    width: 348px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+}
+
+#tecno h1{
+    color: #837E9F;
+
+    font-family: Merriweather Sans;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 17px;
+    grid-row-gap: 1em;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .wrapper > div {
+    border-radius: 50px;
+    background-color:  #CB92B1;
+    padding: 10PX;
+    color: black;
+    
+  }
+
+.container {
+   
+    justify-content: center;
+    align-items: center;
+    width: 952px;
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.20);
+    top: 30%;
+    right: 2%;
+    position:absolute;
+    padding: 10px 75px;
+}
+
+.content {
+    display: flex; /* Para alinhar imagem e texto lado a lado */
+    align-items: center; /* Centralizar verticalmente */
+    text-align: left; /* Alinhar texto à esquerda */
+    width: 80%; /* Largura do conteúdo (ajustável conforme necessário) */
+}
+
+.content img {
+    max-width: 100px; /* Largura máxima da imagem */
+    height: auto;
+    margin-right: 20px; /* Espaço entre imagem e texto */
+    border-radius:50%;
+}
+
+.content p {
+    margin: 0 0 10px;
+   
+    
+    flex-shrink: 0;
+    color: #837E9F;
+    font-family: Merriweather Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+    display: flex;
+    text-align: center;
+      
+}
+.content h1{
+    width: 128px;
+    height: 17px;
+    color: #837E9F;
+
+    font-family: Merriweather Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.container1 {
+   
+    justify-content: center;
+    align-items: center;
+    width: 952px;
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.20);
+    top: 50%;
+    right: 2%;
+    position:absolute;
+    padding: 10px 75px;
+}
+
+.container2 {
+   
+    justify-content: center;
+    align-items: center;
+    width: 952px;
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.20);
+    top: 70%;
+    right: 2%;
+    position:absolute;
+    padding: 10px 75px;
+}
+
+.container3 {
+   
+    justify-content: center;
+    align-items: center;
+    width: 952px;
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.20);
+    top: 90%;
+    right: 2%;
+    position:absolute;
+    padding: 10px 75px;
+}
+
+
+
+/*.container {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 300px; /* Altura do bloco *
+    border: 1px solid #ccc; /* Borda para visualização *
+    width: 952px;
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.20);
+    top: 30%;
+    right: 2%;
+    position:absolute;
+    padding: 50px 76px;
+    
+}
+
+.content {
+    text-align: center;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px; /* Margem inferior para separar imagem do texto *
+    width: 80px;
+    border-radius:50%;
+}
+.content p {
+    */
